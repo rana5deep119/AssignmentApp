@@ -4,7 +4,7 @@ import AntDesign from '@expo/vector-icons/AntDesign';
 
 const explore = () => {
   return (
-    <View >
+    <View style={{ backgroundColor:'#0b1120', flex:1, justifyContent:'space-evenly'}}>
       <View style={styles.head}>
         <AntDesign name="arrow-left" size={24} color="white" />
         <Text style={{color:'white' }}>My Cart</Text>
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   last:{
 display:'flex',
 flexDirection:'row',
-backgroundColor:"gray",
+backgroundColor:"#10304bff",
 borderRadius:10,
 width:'90%',
 justifyContent:'space-between',
