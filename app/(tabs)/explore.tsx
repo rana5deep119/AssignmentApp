@@ -7,7 +7,7 @@ const explore = () => {
     <View >
       <View style={styles.head}>
         <AntDesign name="arrow-left" size={24} color="white" />
-        <Text style={{color:'white' }}>Phones</Text>
+        <Text style={{color:'white' }}>My Cart</Text>
       </View>
       
       <View style={styles.cart}>
